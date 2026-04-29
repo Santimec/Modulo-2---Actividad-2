@@ -1,12 +1,24 @@
-header{
-    background-color: #8DA58E;
-}
-
 body{
-    background-color: black;
+    background-color: #8DA58D;
 }
 
-p{
-    background-color: black;
-    color: green;
+header{
+    padding: 20px;
+}
+header > *{
+    margin: 0;
+    padding-bottom: 0px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+section:nth-child(3) {
+    margin: 10px 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+section:nth-child(3) > *{
+    overflow-wrap: break-word;
 }
