@@ -13,12 +13,18 @@ main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start
 }
-section:nth-child(3) {
-    margin: 10px 5px;
-    display: flex;
-    flex-wrap: wrap;
+
+section:nth-child(1){
+    width: 20%;
+    background-color: red;
+    
 }
-section:nth-child(3) > *{
-    overflow-wrap: break-word;
+section:nth-child(2){
+    width: 50%;
+}
+section:nth-child(3){
+    width: 19%;
 }
